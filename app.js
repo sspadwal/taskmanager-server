@@ -23,7 +23,7 @@ app.use(cors());
 app.use(express.json());
 
 // Log Mongo URI for debugging
-console.log("Mongo URI:", MONGO_URI);
+
 
 // Connect to MongoDB using Mongoose
 mongoose.connect(MONGO_URI)
